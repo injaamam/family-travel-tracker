@@ -1,19 +1,16 @@
 # Family Travel Tracker
 
 ## Overview
-Family Travel Tracker is a Node.js application designed to help families keep track of their travel plans, destinations, and itineraries.
+Family Travel Tracker is a Node.js application designed to help families keep track of their travels, destinations, and itineraries.
 
 ## Features
 - Add and manage travel destinations
-- Track travel dates and itineraries
-- User authentication and authorization
-- Responsive design for mobile and desktop
 
 ## Installation
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/family-travel-tracker.git
+    git clone https://github.com/injaamam/family-travel-tracker.git
     cd family-travel-tracker
     ```
 
@@ -42,7 +39,7 @@ Family Travel Tracker is a Node.js application designed to help families keep tr
 ## Usage
 - Open your browser and navigate to `http://localhost:3000`
 - Register a new account or log in with an existing account
-- Start adding and managing your travel plans
+- Start adding and managing your travels
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
