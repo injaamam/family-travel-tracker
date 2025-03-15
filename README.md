@@ -18,7 +18,7 @@ Family Travel Tracker is a Node.js application designed to help families keep tr
 
 ## Database Initialization
 
-4. Create a database (e.g., named `world`) and run the queries from `queries.sql`. This will create the necessary database for the program:
+4. Create a postgreSQL database (e.g., named `world`) and run the queries from `queries.sql`. This will create the necessary database for the program:
 
     Example connection details for your database (used in `index.js`):
     ```env
@@ -37,7 +37,7 @@ Family Travel Tracker is a Node.js application designed to help families keep tr
     ```
 
 ## Usage
-- Open your browser and navigate to `http://localhost:3000`
+- Open your browser and navigate to `http://localhost:5000`
 - Start adding and managing your travels
 
 ## Contributing
