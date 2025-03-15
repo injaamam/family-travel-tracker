@@ -3,9 +3,6 @@
 ## Overview
 Family Travel Tracker is a Node.js application designed to help families keep track of their travels, destinations, and itineraries.
 
-## Features
-- Add and manage travel destinations
-
 ## Installation
 
 1. Clone the repository:
@@ -19,30 +16,29 @@ Family Travel Tracker is a Node.js application designed to help families keep tr
     npm install
     ```
 
-3. Create a `.env` file in the root directory and add your environment variables:
+## Database Initialization
+
+4. Create a database named something and run the queries from `queries.sql`. This will create the necessary database for the program:
+
+    Example connection details for your database (that I used in my index.js file):
     ```env
-    PORT=3000
-    DATABASE_URL=your_database_url
-    JWT_SECRET=your_jwt_secret
+    user=postgres
+    host=localhost
+    database=world
+    password=ck675511
+    port=5432
     ```
 
-4. Initialize the database:
-    ```bash
-    npm run db:init
-    ```
+## Start the Application
 
 5. Start the application:
     ```bash
-    npm start
+    node index.js
     ```
 
 ## Usage
 - Open your browser and navigate to `http://localhost:3000`
-- Register a new account or log in with an existing account
 - Start adding and managing your travels
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
-
-## License
-This project is licensed under the MIT License.
