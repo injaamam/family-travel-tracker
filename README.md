@@ -32,9 +32,11 @@ Family Travel Tracker is a Node.js application designed to help families keep tr
    port=5432
    ```
 
+4. Import the countries.csv file to countries table.
+
 ## Start the Application
 
-4. Start the application:
+5. Start the application:
    ```bash
    node index.js
    ```
