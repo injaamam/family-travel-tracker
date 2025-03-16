@@ -49,3 +49,6 @@ Family Travel Tracker is a Node.js application designed to help families keep tr
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request.
+
+![image](https://github.com/user-attachments/assets/323c6ee8-e84c-4a99-b413-0fe76e1954ab)
+
